@@ -3,8 +3,8 @@ customizing fedora
 
 ## Usage 
 
-'''sh
+```sh
 docker build -t DockerHubAccount/fedora
 docker push DockerHubAccount/fedora
 docker run -it DockerHubAccount/fedora
-'''
+```
