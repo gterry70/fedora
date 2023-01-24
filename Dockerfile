@@ -1,4 +1,3 @@
 from fedora
-run dnf install -y package \ 
-  && dnf clean all
+run dnf install -y emacs && dnf clean all
 env PS1='\u@\h: \w \$ '
